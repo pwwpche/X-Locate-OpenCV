@@ -1,0 +1,62 @@
+﻿生成启动时间为 2017/1/4 15:38:35。
+     1>项目“E:\C++\SIFT-master\SIFT\SIFT.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\SIFT.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\setup\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\setup\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\setup\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\c++\sift-master\sift\CV_Histogram.h(39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(35): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(88): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(89): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(89): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(90): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>e:\c++\sift-master\sift\CV_Quadrize.h(108): warning C4101: “denom”: 未引用的局部变量
+       Link:
+         D:\setup\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\SIFT-master\Debug\SIFT.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\common\tbb\ia32\vc10 /LIBPATH:C:\opencv\build\x86\vc10\bin /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core244d.lib opencv_imgproc244d.lib opencv_highgui244d.lib opencv_ml244d.lib opencv_video244d.lib opencv_features2d244d.lib opencv_calib3d244d.lib opencv_objdetect244d.lib opencv_contrib244d.lib opencv_legacy244d.lib opencv_flann244d.lib opencv_nonfree244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SIFT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C++\SIFT-master\Debug\SIFT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\SIFT-master\Debug\SIFT.lib" /MACHINE:X86 Debug\CV_BinarizeWindow.obj
+         Debug\CV_Blob.obj
+         Debug\CV_Blur.obj
+         Debug\Canny.obj
+         Debug\cannyEdge.obj
+         Debug\canny_official.obj
+         Debug\canny_oficial_better.obj
+         Debug\clear.obj
+         Debug\contrast.obj
+         Debug\Match_CutImage.obj
+         Debug\Match_DetectLogo.obj
+         Debug\Match_LogoMask.obj
+         Debug\Match_PerspectiveWrap.obj
+         Debug\Match_SURF_Match.obj
+         Debug\Match_MatchingHelper.obj
+         Debug\Match_OutlineDetect.obj
+         Debug\CV_Dilate.obj
+         Debug\dilate_onestep.obj
+         Debug\CV_Histogram.obj
+         Debug\CV_KMeans.obj
+         Debug\lineDetect.obj
+         Debug\LineParams.obj
+         Debug\PerspWrap.obj
+         Debug\CV_Quadrize.obj
+         Debug\RectCheck.obj
+         Debug\RectChecker.obj
+         Debug\rotateCorrection.obj
+         Debug\scoreGen.obj
+         Debug\SimpleBlob.obj
+         Debug\SURF_demo.obj
+         Debug\main.obj
+         Debug\TemplateMatchingDemo.obj
+         Debug\Timer.obj
+         SIFT.vcxproj -> E:\C++\SIFT-master\Debug\SIFT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\C++\SIFT-master\Debug\SIFT.exe;#1" /manifest Debug\SIFT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SIFT.unsuccessfulbuild”。
+         正在对“Debug\SIFT.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\C++\SIFT-master\SIFT\SIFT.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.35
